@@ -1,0 +1,5 @@
+/.idea
+/node_modules
+/stage1/node_modules
+/stage2/node_modules
+/.vscode
