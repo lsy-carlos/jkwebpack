@@ -2,12 +2,46 @@
 
 const path = require('path');
 const Webpack = require('webpack');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
+const glob = require('glob')
+
+const setMPA = ()=>{
+    const entry = {};
+    const htmlWebpackPlugins = [];
+    const entryFiles = glob.sync(path.join(__dirname,'./src/*/index.js')) 
+    
+    entryFiles.forEach((val,index)=>{
+        const matchs = val.match(/src\/(.*)\/index\.js/);
+        const pageName = matchs[1];
+        entry[pageName] = val;
+        htmlWebpackPlugins.push(//html压缩
+            new HtmlWebpackPlugin({
+                template:path.join(__dirname,`src/${pageName}/index.html`),//html所在位置
+                filename:`${pageName}.html`,//
+                chunks:[pageName],
+                inject:true,
+                minify:{
+                    html5:true,
+                    collapseWhitespace:true,
+                    preserveLineBreaks:false,
+                    minifyCSS:true,
+                    minifyJS:true,
+                    removeComments:false
+                }
+            })
+        )
+    })
+    return {
+        entry,
+        htmlWebpackPlugins
+    }
+}
+const {entry,htmlWebpackPlugins} = setMPA();
 
 module.exports={
-    entry:{
-        index:'./src/index.js',
-        search:'./src/search.js'
-    },
+    entry:entry,
     output:{
         path:path.join(__dirname,'dist'),
         filename:'[name].js'
@@ -39,11 +73,17 @@ module.exports={
     },
     mode:'development',
     plugins:[
-        new Webpack.HotModuleReplacementPlugin()
-    ],
+        new Webpack.HotModuleReplacementPlugin(),
+        // 自动清除dist
+        new CleanWebpackPlugin(),
+        new FriendlyErrorsWebpackPlugin()
+    ].concat(htmlWebpackPlugins),
+    devtool:'eval',
     devServer:{
         contentBase:'./dist',
-        hot:true
+        hot:true,
+        //构建是命令行的现实日志模式
+        stats:'errors-only'
     }
     // watch:true,
     // watchOptions:{
