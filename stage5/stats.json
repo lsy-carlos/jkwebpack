@@ -1,0 +1,548 @@
+ DONE  Compiled successfully in 6820ms20:14:08
+
+{
+  "errors": [],
+  "warnings": [],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\common\\util.js",
+      "name": "./src/common/util.js",
+      "index": 2,
+      "index2": 1,
+      "size": 55,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 1,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react\\index.js",
+      "name": "./node_modules/react/index.js",
+      "index": 4,
+      "index2": 7,
+      "size": 189,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 2,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react\\cjs\\react.development.js",
+      "name": "./node_modules/react/cjs/react.development.js",
+      "index": 5,
+      "index2": 6,
+      "size": 66869,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react\\index.js",
+      "issuerId": 1,
+      "issuerName": "./node_modules/react/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 1,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 3,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\object-assign\\index.js",
+      "name": "./node_modules/object-assign/index.js",
+      "index": 6,
+      "index2": 3,
+      "size": 2226,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+      "issuerId": 7,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 6,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 7,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 4,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\prop-types\\checkPropTypes.js",
+      "name": "./node_modules/prop-types/checkPropTypes.js",
+      "index": 7,
+      "index2": 5,
+      "size": 3632,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+      "issuerId": 7,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 6,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 7,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 5,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js",
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "index": 8,
+      "index2": 4,
+      "size": 311,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\prop-types\\checkPropTypes.js",
+      "issuerId": 4,
+      "issuerName": "./node_modules/prop-types/checkPropTypes.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 6,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 7,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        },
+        {
+          "id": 4,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\prop-types\\checkPropTypes.js",
+          "name": "./node_modules/prop-types/checkPropTypes.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 6,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "index": 9,
+      "index2": 13,
+      "size": 1352,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 7,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "index": 10,
+      "index2": 12,
+      "size": 721126,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\index.js",
+      "issuerId": 6,
+      "issuerName": "./node_modules/react-dom/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 6,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 8,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\scheduler\\index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "index": 11,
+      "index2": 9,
+      "size": 197,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+      "issuerId": 7,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 6,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 7,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 9,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\scheduler\\cjs\\scheduler.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "index": 12,
+      "index2": 8,
+      "size": 26532,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\scheduler\\index.js",
+      "issuerId": 8,
+      "issuerName": "./node_modules/scheduler/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 6,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 7,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        },
+        {
+          "id": 8,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\scheduler\\index.js",
+          "name": "./node_modules/scheduler/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 10,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\scheduler\\tracing.js",
+      "name": "./node_modules/scheduler/tracing.js",
+      "index": 13,
+      "index2": 11,
+      "size": 213,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+      "issuerId": 7,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 6,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 7,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 11,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\scheduler\\cjs\\scheduler-tracing.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "index": 14,
+      "index2": 10,
+      "size": 10145,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\scheduler\\tracing.js",
+      "issuerId": 10,
+      "issuerName": "./node_modules/scheduler/tracing.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 6,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 7,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\react-dom\\cjs\\react-dom.development.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.development.js"
+        },
+        {
+          "id": 10,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\node_modules\\scheduler\\tracing.js",
+          "name": "./node_modules/scheduler/tracing.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 12,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!E:\\web\\jkwebpack\\stage5\\node_modules\\css-loader\\dist\\cjs.js!E:\\web\\jkwebpack\\stage5\\node_modules\\less-loader\\dist\\cjs.js!E:\\web\\jkwebpack\\stage5\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!E:\\web\\jkwebpack\\stage5\\node_modules\\px2rem-loader\\index.js??ref--6-4!E:\\web\\jkwebpack\\stage5\\src\\search\\search.less",
+      "name": "./src/search/search.less",
+      "index": 15,
+      "index2": 15,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 13,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\text.js",
+      "name": "./src/search/text.js",
+      "index": 20,
+      "index2": 20,
+      "size": 151,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "issuer": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 14,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\search\\index.js daf226a1c1671a851257b2add22c31fa",
+      "name": "./src/search/index.js + 3 modules",
+      "index": 3,
+      "index2": 19,
+      "size": 5688,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 15,
+      "identifier": "E:\\web\\jkwebpack\\stage5\\node_modules\\babel-loader\\lib\\index.js!E:\\web\\jkwebpack\\stage5\\src\\index\\index.js 1265ef09e17382d1818d1b50ba0b7189",
+      "name": "./src/index/index.js + 1 modules",
+      "index": 0,
+      "index2": 2,
+      "size": 169,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "filteredModules": 1,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  }
+}

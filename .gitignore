@@ -2,4 +2,7 @@
 /node_modules
 /stage1/node_modules
 /stage2/node_modules
+/stage3/node_modules
+/stage3-outlibrary/node_modules
+/stage4/node_modules
 /.vscode
